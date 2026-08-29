@@ -1,1 +1,0 @@
-ENLACE DEL PORTAL: http://localhost/portal-atencion-cliente/frontend/index.html
