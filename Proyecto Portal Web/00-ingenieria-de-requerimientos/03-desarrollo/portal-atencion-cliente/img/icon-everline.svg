@@ -1,0 +1,25 @@
+<svg viewBox="0 0 160 160" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Everline">
+  <defs>
+    <linearGradient id="everlineIconLineGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1C7C8C"/>
+      <stop offset="100%" stop-color="#F2A93B"/>
+    </linearGradient>
+    <linearGradient id="everlineIconBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0E3A4D"/>
+      <stop offset="100%" stop-color="#092934"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="0" y="0" width="160" height="160" rx="34" fill="url(#everlineIconBg)"/>
+  <circle cx="80" cy="80" r="54" fill="none" stroke="rgba(255,255,255,0.14)" stroke-width="2"/>
+
+  <path d="M 28 88 L 54 88 L 65 58 L 79 110 L 91 78 L 100 88 L 128 88"
+        fill="none" stroke="url(#everlineIconLineGrad)" stroke-width="8"
+        stroke-linecap="round" stroke-linejoin="round"/>
+
+  <circle cx="128" cy="88" r="7" fill="#F2A93B"/>
+  <circle cx="128" cy="88" r="7" fill="none" stroke="#F2A93B" stroke-width="1.5" opacity="0.55">
+    <animate attributeName="r" values="7;17;7" dur="2.6s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.55;0;0.55" dur="2.6s" repeatCount="indefinite"/>
+  </circle>
+</svg>
